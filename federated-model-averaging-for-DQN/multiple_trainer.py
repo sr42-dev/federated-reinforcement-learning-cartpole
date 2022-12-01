@@ -11,7 +11,7 @@ def test_agent(env, agent, runs=3):
         done = False
         score = 0
         while not done:
-            # env.render()
+            env.render()
             action = agent.select_action(state)
             next_state, reward, done = agent.step(env, action)
 
