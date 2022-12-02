@@ -1,3 +1,247 @@
-[INFO]-2022-12-01 14:41:16-worker_mqtt_main.py:35:Worker 2 is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:17-worker.py:168:Worker 2-Ep. 0: Loss=0.1897 (EMA: 0.1897, Mean: 0.1897), Score=166.0000 (EMA: 166.0000, Mean: 166.0000)
-[INFO]-2022-12-01 14:41:17-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 2 'loss': 0.18969780746847392, 'score': 166.0 'gradients_length': 4
+[INFO]-2022-12-02 23:36:54-worker_mqtt_main.py:35:Worker 2 is successfully connected with broker@localhost
+[INFO]-2022-12-02 23:36:54-worker.py:168:Worker 2-Ep. 0: Loss=1.0743 (EMA: 1.0743, Mean: 1.0743), Score=149.5000 (EMA: 149.5000, Mean: 149.5000)
+[INFO]-2022-12-02 23:36:54-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 2 'loss': 1.0742889583110808, 'score': 149.5 'gradients_length': 4
+[INFO]-2022-12-02 23:36:56-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 0, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:36:56-worker.py:168:Worker 2-Ep. 1: Loss=1.1905 (EMA: 1.1324, Mean: 1.1324), Score=200.0000 (EMA: 174.7500, Mean: 174.7500)
+[INFO]-2022-12-02 23:36:56-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 1, 'worker_id': 2 'loss': 1.190532273054123, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:36:58-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 1, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:36:58-worker.py:168:Worker 2-Ep. 2: Loss=0.9179 (EMA: 1.0609, Mean: 1.0609), Score=170.0000 (EMA: 173.1667, Mean: 173.1667)
+[INFO]-2022-12-02 23:36:58-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 2, 'worker_id': 2 'loss': 0.917924565076828, 'score': 170.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:00-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 2, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:01-worker.py:168:Worker 2-Ep. 3: Loss=0.1848 (EMA: 0.8419, Mean: 0.8419), Score=82.2500 (EMA: 150.4375, Mean: 150.4375)
+[INFO]-2022-12-02 23:37:01-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 3, 'worker_id': 2 'loss': 0.1847993616014719, 'score': 82.25 'gradients_length': 4
+[INFO]-2022-12-02 23:37:02-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 3, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:02-worker.py:168:Worker 2-Ep. 4: Loss=0.9622 (EMA: 0.8659, Mean: 0.8659), Score=106.5000 (EMA: 141.6500, Mean: 141.6500)
+[INFO]-2022-12-02 23:37:02-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 4, 'worker_id': 2 'loss': 0.9621912777423859, 'score': 106.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:04-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 4, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:04-worker.py:168:Worker 2-Ep. 5: Loss=1.1299 (EMA: 0.9099, Mean: 0.9099), Score=200.0000 (EMA: 151.3750, Mean: 151.3750)
+[INFO]-2022-12-02 23:37:04-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 5, 'worker_id': 2 'loss': 1.1298806846141816, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:05-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 5, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:06-worker.py:168:Worker 2-Ep. 6: Loss=-0.2741 (EMA: 0.7408, Mean: 0.7408), Score=156.0000 (EMA: 152.0357, Mean: 152.0357)
+[INFO]-2022-12-02 23:37:06-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 6, 'worker_id': 2 'loss': -0.2740966141223907, 'score': 156.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:07-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 6, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:08-worker.py:168:Worker 2-Ep. 7: Loss=1.0947 (EMA: 0.7850, Mean: 0.7850), Score=200.0000 (EMA: 158.0312, Mean: 158.0312)
+[INFO]-2022-12-02 23:37:08-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 7, 'worker_id': 2 'loss': 1.094680255651474, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:09-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 7, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:09-worker.py:168:Worker 2-Ep. 8: Loss=0.2632 (EMA: 0.7270, Mean: 0.7270), Score=129.6667 (EMA: 154.8796, Mean: 154.8796)
+[INFO]-2022-12-02 23:37:09-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 8, 'worker_id': 2 'loss': 0.2631913900375366, 'score': 129.66666666666666 'gradients_length': 4
+[INFO]-2022-12-02 23:37:10-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 8, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:11-worker.py:168:Worker 2-Ep. 9: Loss=-0.3698 (EMA: 0.6174, Mean: 0.6174), Score=121.0000 (EMA: 151.4917, Mean: 151.4917)
+[INFO]-2022-12-02 23:37:11-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 9, 'worker_id': 2 'loss': -0.36976679526269435, 'score': 121.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:12-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 9, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:13-worker.py:168:Worker 2-Ep.10: Loss=-0.4877 (EMA: 0.5907, Mean: 0.5169), Score=70.6667 (EMA: 148.9342, Mean: 144.1439)
+[INFO]-2022-12-02 23:37:13-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 10, 'worker_id': 2 'loss': -0.4876806139945984, 'score': 70.66666666666667 'gradients_length': 4
+[INFO]-2022-12-02 23:37:14-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 10, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:14-worker.py:168:Worker 2-Ep.11: Loss=0.9444 (EMA: 0.5060, Mean: 0.5525), Score=125.5000 (EMA: 138.6364, Mean: 142.5903)
+[INFO]-2022-12-02 23:37:14-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 11, 'worker_id': 2 'loss': 0.9444328967481852, 'score': 125.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:15-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 11, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:16-worker.py:168:Worker 2-Ep.12: Loss=0.1083 (EMA: 0.4109, Mean: 0.5184), Score=111.5000 (EMA: 131.5768, Mean: 140.1987)
+[INFO]-2022-12-02 23:37:16-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 12, 'worker_id': 2 'loss': 0.10828144177794456, 'score': 111.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:17-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 12, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:17-worker.py:168:Worker 2-Ep.13: Loss=-0.1888 (EMA: 0.4160, Mean: 0.4678), Score=71.0000 (EMA: 136.7248, Mean: 135.2560)
+[INFO]-2022-12-02 23:37:17-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 13, 'worker_id': 2 'loss': -0.188779217004776, 'score': 71.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:18-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 13, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:19-worker.py:168:Worker 2-Ep.14: Loss=0.1491 (EMA: 0.3049, Mean: 0.4466), Score=102.0000 (EMA: 140.0173, Mean: 133.0389)
+[INFO]-2022-12-02 23:37:19-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 14, 'worker_id': 2 'loss': 0.14912457913160324, 'score': 102.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:20-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 14, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:20-worker.py:168:Worker 2-Ep.15: Loss=-0.4430 (EMA: 0.1172, Mean: 0.3910), Score=108.0000 (EMA: 127.6624, Mean: 131.4740)
+[INFO]-2022-12-02 23:37:20-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 15, 'worker_id': 2 'loss': -0.44301349520683286, 'score': 108.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:22-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 15, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:23-worker.py:168:Worker 2-Ep.16: Loss=0.4824 (EMA: 0.2068, Mean: 0.3964), Score=127.5000 (EMA: 122.6886, Mean: 131.2402)
+[INFO]-2022-12-02 23:37:23-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 16, 'worker_id': 2 'loss': 0.48244342803955076, 'score': 127.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:24-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 16, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:24-worker.py:168:Worker 2-Ep.17: Loss=-0.3990 (EMA: 0.0163, Mean: 0.3522), Score=136.0000 (EMA: 109.9121, Mean: 131.5046)
+[INFO]-2022-12-02 23:37:24-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 17, 'worker_id': 2 'loss': -0.39895102977752683, 'score': 136.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:26-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 17, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:26-worker.py:168:Worker 2-Ep.18: Loss=0.1375 (EMA: -0.0199, Mean: 0.3409), Score=180.5000 (EMA: 110.5221, Mean: 134.0833)
+[INFO]-2022-12-02 23:37:26-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 18, 'worker_id': 2 'loss': 0.137468421459198, 'score': 180.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:28-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 18, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:28-worker.py:168:Worker 2-Ep.19: Loss=0.3649 (EMA: 0.0636, Mean: 0.3421), Score=87.3333 (EMA: 107.3492, Mean: 131.7458)
+[INFO]-2022-12-02 23:37:28-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 19, 'worker_id': 2 'loss': 0.364934903383255, 'score': 87.33333333333333 'gradients_length': 4
+[INFO]-2022-12-02 23:37:29-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 19, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:30-worker.py:168:Worker 2-Ep.20: Loss=1.0123 (EMA: 0.2149, Mean: 0.3740), Score=123.0000 (EMA: 114.6782, Mean: 131.3294)
+[INFO]-2022-12-02 23:37:30-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 20, 'worker_id': 2 'loss': 1.0123173385858535, 'score': 123.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:31-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 20, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:32-worker.py:168:Worker 2-Ep.21: Loss=1.1094 (EMA: 0.1386, Mean: 0.4074), Score=200.0000 (EMA: 117.7030, Mean: 134.4508)
+[INFO]-2022-12-02 23:37:32-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 21, 'worker_id': 2 'loss': 1.1093816500157119, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:33-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 21, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:33-worker.py:168:Worker 2-Ep.22: Loss=0.1123 (EMA: 0.1424, Mean: 0.3946), Score=161.0000 (EMA: 121.2867, Mean: 135.6051)
+[INFO]-2022-12-02 23:37:33-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 22, 'worker_id': 2 'loss': 0.11226955950260162, 'score': 161.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:34-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 22, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:35-worker.py:168:Worker 2-Ep.23: Loss=0.7338 (EMA: 0.2346, Mean: 0.4087), Score=155.0000 (EMA: 132.0408, Mean: 136.4132)
+[INFO]-2022-12-02 23:37:35-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 23, 'worker_id': 2 'loss': 0.7337817471474409, 'score': 155.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:36-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 23, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:37-worker.py:168:Worker 2-Ep.24: Loss=0.9113 (EMA: 0.2885, Mean: 0.4288), Score=142.5000 (EMA: 137.9068, Mean: 136.6567)
+[INFO]-2022-12-02 23:37:37-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 24, 'worker_id': 2 'loss': 0.9112954773008823, 'score': 142.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:38-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 24, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:38-worker.py:168:Worker 2-Ep.25: Loss=1.1041 (EMA: 0.4637, Mean: 0.4548), Score=123.5000 (EMA: 142.3153, Mean: 136.1506)
+[INFO]-2022-12-02 23:37:38-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 25, 'worker_id': 2 'loss': 1.1041231215000153, 'score': 123.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:40-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 25, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:40-worker.py:168:Worker 2-Ep.26: Loss=-0.3804 (EMA: 0.4118, Mean: 0.4239), Score=200.0000 (EMA: 148.2376, Mean: 138.5154)
+[INFO]-2022-12-02 23:37:40-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 26, 'worker_id': 2 'loss': -0.3803534388542175, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:41-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 26, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:42-worker.py:168:Worker 2-Ep.27: Loss=0.0326 (EMA: 0.5320, Mean: 0.4099), Score=200.0000 (EMA: 153.3667, Mean: 140.7113)
+[INFO]-2022-12-02 23:37:42-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 27, 'worker_id': 2 'loss': 0.032624244689941406, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:43-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 27, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:43-worker.py:168:Worker 2-Ep.28: Loss=1.1426 (EMA: 0.6363, Mean: 0.4352), Score=179.0000 (EMA: 150.0916, Mean: 142.0316)
+[INFO]-2022-12-02 23:37:43-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 28, 'worker_id': 2 'loss': 1.1425572335720062, 'score': 179.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:44-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 28, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:45-worker.py:168:Worker 2-Ep.29: Loss=-0.5919 (EMA: 0.6130, Mean: 0.4009), Score=119.0000 (EMA: 159.2931, Mean: 141.2639)
+[INFO]-2022-12-02 23:37:45-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 29, 'worker_id': 2 'loss': -0.5918973833322525, 'score': 119.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:46-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 29, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:47-worker.py:168:Worker 2-Ep.30: Loss=0.0729 (EMA: 0.5119, Mean: 0.3904), Score=133.0000 (EMA: 164.1349, Mean: 140.9973)
+[INFO]-2022-12-02 23:37:47-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 30, 'worker_id': 2 'loss': 0.07291449308395385, 'score': 133.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:48-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 30, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:49-worker.py:168:Worker 2-Ep.31: Loss=0.8457 (EMA: 0.4265, Mean: 0.4046), Score=122.5000 (EMA: 155.4506, Mean: 140.4193)
+[INFO]-2022-12-02 23:37:49-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 31, 'worker_id': 2 'loss': 0.8456774398684501, 'score': 122.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:50-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 31, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:50-worker.py:168:Worker 2-Ep.32: Loss=0.6408 (EMA: 0.4939, Mean: 0.4117), Score=119.0000 (EMA: 152.3762, Mean: 139.7702)
+[INFO]-2022-12-02 23:37:50-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 32, 'worker_id': 2 'loss': 0.6408257246017456, 'score': 119.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:51-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 32, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:52-worker.py:168:Worker 2-Ep.33: Loss=0.2498 (EMA: 0.4378, Mean: 0.4070), Score=132.0000 (EMA: 150.7414, Mean: 139.5417)
+[INFO]-2022-12-02 23:37:52-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 33, 'worker_id': 2 'loss': 0.2498232305049896, 'score': 132.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:53-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 33, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:53-worker.py:168:Worker 2-Ep.34: Loss=0.4813 (EMA: 0.3573, Mean: 0.4091), Score=117.3333 (EMA: 150.2585, Mean: 138.9071)
+[INFO]-2022-12-02 23:37:53-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 34, 'worker_id': 2 'loss': 0.4812501549720764, 'score': 117.33333333333333 'gradients_length': 4
+[INFO]-2022-12-02 23:37:55-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 34, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:55-worker.py:168:Worker 2-Ep.35: Loss=0.6446 (EMA: 0.2430, Mean: 0.4156), Score=150.0000 (EMA: 154.9315, Mean: 139.2153)
+[INFO]-2022-12-02 23:37:55-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 35, 'worker_id': 2 'loss': 0.6446480631828309, 'score': 150.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:56-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 35, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:57-worker.py:168:Worker 2-Ep.36: Loss=0.1562 (EMA: 0.3473, Mean: 0.4086), Score=168.0000 (EMA: 147.7896, Mean: 139.9932)
+[INFO]-2022-12-02 23:37:57-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 36, 'worker_id': 2 'loss': 0.15620244592428206, 'score': 168.0 'gradients_length': 4
+[INFO]-2022-12-02 23:37:58-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 36, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:37:58-worker.py:168:Worker 2-Ep.37: Loss=0.5884 (EMA: 0.4163, Mean: 0.4134), Score=151.5000 (EMA: 138.8568, Mean: 140.2961)
+[INFO]-2022-12-02 23:37:58-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 37, 'worker_id': 2 'loss': 0.5883779264986515, 'score': 151.5 'gradients_length': 4
+[INFO]-2022-12-02 23:37:59-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 37, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:00-worker.py:168:Worker 2-Ep.38: Loss=1.0493 (EMA: 0.3255, Mean: 0.4297), Score=200.0000 (EMA: 135.3503, Mean: 141.8269)
+[INFO]-2022-12-02 23:38:00-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 38, 'worker_id': 2 'loss': 1.0493315570056438, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:01-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 38, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:01-worker.py:168:Worker 2-Ep.39: Loss=0.3065 (EMA: 0.4852, Mean: 0.4266), Score=184.5000 (EMA: 141.0493, Mean: 142.8938)
+[INFO]-2022-12-02 23:38:01-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 39, 'worker_id': 2 'loss': 0.30645577907562255, 'score': 184.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:02-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 39, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:03-worker.py:168:Worker 2-Ep.40: Loss=0.9239 (EMA: 0.5827, Mean: 0.4387), Score=121.0000 (EMA: 141.3031, Mean: 142.3598)
+[INFO]-2022-12-02 23:38:03-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 40, 'worker_id': 2 'loss': 0.9238693356513977, 'score': 121.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:04-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 40, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:05-worker.py:168:Worker 2-Ep.41: Loss=0.8414 (EMA: 0.5516, Mean: 0.4483), Score=122.0000 (EMA: 143.4840, Mean: 141.8750)
+[INFO]-2022-12-02 23:38:05-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 41, 'worker_id': 2 'loss': 0.8414275467395782, 'score': 122.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:06-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 41, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:06-worker.py:168:Worker 2-Ep.42: Loss=0.6287 (EMA: 0.5404, Mean: 0.4525), Score=151.0000 (EMA: 148.2069, Mean: 142.0872)
+[INFO]-2022-12-02 23:38:06-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 42, 'worker_id': 2 'loss': 0.6286539644002914, 'score': 151.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:07-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 42, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:08-worker.py:168:Worker 2-Ep.43: Loss=0.5023 (EMA: 0.5891, Mean: 0.4536), Score=200.0000 (EMA: 154.0332, Mean: 143.4034)
+[INFO]-2022-12-02 23:38:08-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 43, 'worker_id': 2 'loss': 0.5022774605080486, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:09-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 43, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:09-worker.py:168:Worker 2-Ep.44: Loss=0.0233 (EMA: 0.5753, Mean: 0.4441), Score=125.5000 (EMA: 158.8171, Mean: 143.0056)
+[INFO]-2022-12-02 23:38:09-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 44, 'worker_id': 2 'loss': 0.023341989517211913, 'score': 125.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:11-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 44, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:11-worker.py:168:Worker 2-Ep.45: Loss=0.1571 (EMA: 0.5391, Mean: 0.4378), Score=183.5000 (EMA: 161.7852, Mean: 143.8859)
+[INFO]-2022-12-02 23:38:11-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 45, 'worker_id': 2 'loss': 0.15708241164684295, 'score': 183.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:12-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 45, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:13-worker.py:168:Worker 2-Ep.46: Loss=0.0929 (EMA: 0.5804, Mean: 0.4305), Score=71.3333 (EMA: 155.4800, Mean: 142.3422)
+[INFO]-2022-12-02 23:38:13-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 46, 'worker_id': 2 'loss': 0.09287450313568116, 'score': 71.33333333333333 'gradients_length': 4
+[INFO]-2022-12-02 23:38:14-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 46, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:15-worker.py:168:Worker 2-Ep.47: Loss=0.1774 (EMA: 0.5558, Mean: 0.4252), Score=128.5000 (EMA: 154.6212, Mean: 142.0538)
+[INFO]-2022-12-02 23:38:15-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 47, 'worker_id': 2 'loss': 0.17742510735988617, 'score': 128.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:16-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 47, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:16-worker.py:168:Worker 2-Ep.48: Loss=0.5896 (EMA: 0.4712, Mean: 0.4286), Score=117.0000 (EMA: 144.5016, Mean: 141.5425)
+[INFO]-2022-12-02 23:38:16-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 48, 'worker_id': 2 'loss': 0.5895746007561684, 'score': 117.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:17-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 48, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:18-worker.py:168:Worker 2-Ep.49: Loss=0.4342 (EMA: 0.4980, Mean: 0.4287), Score=134.5000 (EMA: 136.9175, Mean: 141.4017)
+[INFO]-2022-12-02 23:38:18-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 49, 'worker_id': 2 'loss': 0.4341844767332077, 'score': 134.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:19-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 49, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:20-worker.py:168:Worker 2-Ep.50: Loss=0.6521 (EMA: 0.4322, Mean: 0.4331), Score=152.0000 (EMA: 140.5759, Mean: 141.6095)
+[INFO]-2022-12-02 23:38:20-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 50, 'worker_id': 2 'loss': 0.6521358132362366, 'score': 152.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:21-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 50, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:21-worker.py:168:Worker 2-Ep.51: Loss=0.7171 (EMA: 0.3770, Mean: 0.4385), Score=129.0000 (EMA: 143.1626, Mean: 141.3670)
+[INFO]-2022-12-02 23:38:21-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 51, 'worker_id': 2 'loss': 0.717074516415596, 'score': 129.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:23-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 51, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:23-worker.py:168:Worker 2-Ep.52: Loss=1.2176 (EMA: 0.3814, Mean: 0.4532), Score=156.0000 (EMA: 142.5300, Mean: 141.6431)
+[INFO]-2022-12-02 23:38:23-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 52, 'worker_id': 2 'loss': 1.2176282793283462, 'score': 156.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:24-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 52, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:24-worker.py:168:Worker 2-Ep.53: Loss=0.7598 (EMA: 0.3820, Mean: 0.4589), Score=140.5000 (EMA: 132.3447, Mean: 141.6219)
+[INFO]-2022-12-02 23:38:24-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 53, 'worker_id': 2 'loss': 0.7597559556365013, 'score': 140.5 'gradients_length': 4
+[INFO]-2022-12-02 23:38:26-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 53, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:26-worker.py:168:Worker 2-Ep.54: Loss=0.7085 (EMA: 0.4637, Mean: 0.4634), Score=79.2000 (EMA: 130.4789, Mean: 140.4870)
+[INFO]-2022-12-02 23:38:26-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 54, 'worker_id': 2 'loss': 0.7085492432117462, 'score': 79.2 'gradients_length': 4
+[INFO]-2022-12-02 23:38:27-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 54, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:28-worker.py:168:Worker 2-Ep.55: Loss=0.8017 (EMA: 0.5369, Mean: 0.4695), Score=200.0000 (EMA: 125.1995, Mean: 141.5497)
+[INFO]-2022-12-02 23:38:28-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 55, 'worker_id': 2 'loss': 0.8017323255538941, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:29-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 55, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:29-worker.py:168:Worker 2-Ep.56: Loss=0.7211 (EMA: 0.6253, Mean: 0.4739), Score=122.0000 (EMA: 134.4518, Mean: 141.2067)
+[INFO]-2022-12-02 23:38:29-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 56, 'worker_id': 2 'loss': 0.7211453258991242, 'score': 122.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:30-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 56, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:31-worker.py:168:Worker 2-Ep.57: Loss=-0.4616 (EMA: 0.6411, Mean: 0.4578), Score=71.3333 (EMA: 131.8543, Mean: 140.0020)
+[INFO]-2022-12-02 23:38:31-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 57, 'worker_id': 2 'loss': -0.46162610352039335, 'score': 71.33333333333333 'gradients_length': 4
+[INFO]-2022-12-02 23:38:32-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 57, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:32-worker.py:168:Worker 2-Ep.58: Loss=1.3080 (EMA: 0.6886, Mean: 0.4722), Score=200.0000 (EMA: 138.3867, Mean: 141.0189)
+[INFO]-2022-12-02 23:38:32-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 58, 'worker_id': 2 'loss': 1.3079561591148376, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:33-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 58, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:34-worker.py:168:Worker 2-Ep.59: Loss=0.4434 (EMA: 0.7190, Mean: 0.4717), Score=200.0000 (EMA: 142.6210, Mean: 142.0019)
+[INFO]-2022-12-02 23:38:34-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 59, 'worker_id': 2 'loss': 0.4434328995645046, 'score': 200.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:35-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 59, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:35-worker.py:168:Worker 2-Ep.60: Loss=1.0000 (EMA: 0.7469, Mean: 0.4804), Score=185.0000 (EMA: 143.4219, Mean: 142.7068)
+[INFO]-2022-12-02 23:38:35-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 60, 'worker_id': 2 'loss': 1.0000414580106736, 'score': 185.0 'gradients_length': 4
+[INFO]-2022-12-02 23:38:36-worker_mqtt_main.py:58:[RECV] TOPIC: Update_Ack, PAYLOAD: 'episode_chief': 60, avg_grad_length: 4 
+
+[INFO]-2022-12-02 23:38:37-worker.py:168:Worker 2-Ep.61: Loss=0.9216 (EMA: 0.7622, Mean: 0.4875), Score=200.0000 (EMA: 149.2115, Mean: 143.6309)
+[INFO]-2022-12-02 23:38:37-worker.py:67:[SEND] TOPIC: Episode_Detail, PAYLOAD: 'episode': 61, 'worker_id': 2 'loss': 0.9215832471847534, 'score': 200.0 'gradients_length': 4

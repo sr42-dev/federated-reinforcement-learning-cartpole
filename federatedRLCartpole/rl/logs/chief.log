@@ -1,610 +1,311 @@
-[INFO]-2022-12-01 14:41:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 2, 'loss': 0.18969780746847392, 'score': 166.0, 'gradients_length': 4
-[INFO]-2022-12-01 14:41:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 1, 'loss': -0.12130614668130875, 'score': 57.75, 'gradients_length': 4
-[INFO]-2022-12-01 14:41:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 0, 'loss': -0.08086332082748413, 'score': 200.0, 'gradients_length': 4
-[INFO]-2022-12-01 14:41:18-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 0, 'global_avg_grad_length': 4
+[INFO]-2022-12-02 23:36:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
+[INFO]-2022-12-02 23:36:54-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 0, 'loss': 0.0833115041255951, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:54-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 2, 'loss': 1.0742889583110808, 'score': 149.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:54-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 0, 'worker_id': 1, 'loss': 0.2914119079709053, 'score': 185.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:55-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 0, 'global_avg_grad_length': 4
 
-[INFO]-2022-12-01 14:41:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:41:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:42:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:43:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:44:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:45:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:46:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:47:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:48:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:49:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:50:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:51:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:52:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:53:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:54:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:55:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:56:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:41-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:43-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:45-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:47-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:49-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:51-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:53-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:55-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:57-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:57:59-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:01-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:03-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:05-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:07-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:09-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:11-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:13-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:15-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:17-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:19-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:21-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:23-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:25-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:27-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:29-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:31-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:33-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:35-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:37-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:39-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:58:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 14:59:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:28-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:30-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:32-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:34-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:36-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:38-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:40-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:42-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:44-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:46-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:48-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:50-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:52-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:54-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:56-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:00:58-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:00-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:02-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:04-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:06-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:08-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:10-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:12-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:14-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:16-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:18-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:20-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:22-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:24-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
-[INFO]-2022-12-01 15:01:26-chief_mqtt_main.py:37:Chief is successfully connected with broker@localhost
+[INFO]-2022-12-02 23:36:56-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 1, 'worker_id': 2, 'loss': 1.190532273054123, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:57-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 1, 'worker_id': 1, 'loss': 1.20382861495018, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:57-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 1, 'worker_id': 0, 'loss': -0.21205042600631713, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:58-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 1, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:36:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 2, 'worker_id': 1, 'loss': -0.30784872770309446, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 2, 'worker_id': 2, 'loss': 0.917924565076828, 'score': 170.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 2, 'worker_id': 0, 'loss': 0.46366233229637144, 'score': 171.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:36:59-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 2, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 3, 'worker_id': 1, 'loss': 0.7880895525217056, 'score': 163.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 3, 'worker_id': 2, 'loss': 0.1847993616014719, 'score': 82.25, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 3, 'worker_id': 0, 'loss': 1.2332277476787568, 'score': 181.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:02-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 3, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:02-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 4, 'worker_id': 2, 'loss': 0.9621912777423859, 'score': 106.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:02-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 4, 'worker_id': 0, 'loss': -1.1848402142524719, 'score': 170.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:02-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 4, 'worker_id': 1, 'loss': 1.162083500623703, 'score': 192.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:03-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 4, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:04-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 5, 'worker_id': 0, 'loss': 1.3066432565450667, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:04-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 5, 'worker_id': 2, 'loss': 1.1298806846141816, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:04-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 5, 'worker_id': 1, 'loss': 1.1760173678398131, 'score': 118.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:05-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 5, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 6, 'worker_id': 0, 'loss': -0.6013177193701267, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 6, 'worker_id': 1, 'loss': 0.8489664688706398, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 6, 'worker_id': 2, 'loss': -0.2740966141223907, 'score': 156.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:07-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 6, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 7, 'worker_id': 1, 'loss': -1.1117772912606596, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 7, 'worker_id': 0, 'loss': 1.225924289226532, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 7, 'worker_id': 2, 'loss': 1.094680255651474, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:09-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 7, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 8, 'worker_id': 1, 'loss': 0.1601882703602314, 'score': 69.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 8, 'worker_id': 0, 'loss': 0.8036799281835556, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 8, 'worker_id': 2, 'loss': 0.2631913900375366, 'score': 129.66666666666666, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:10-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 8, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 9, 'worker_id': 2, 'loss': -0.36976679526269435, 'score': 121.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 9, 'worker_id': 1, 'loss': 0.1306951731443405, 'score': 151.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 9, 'worker_id': 0, 'loss': -0.9037331283092499, 'score': 172.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:12-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 9, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 10, 'worker_id': 1, 'loss': 1.2609981894493103, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 10, 'worker_id': 0, 'loss': 1.045271748304367, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 10, 'worker_id': 2, 'loss': -0.4876806139945984, 'score': 70.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:13-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 10, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:14-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 11, 'worker_id': 0, 'loss': -0.11278478726744652, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:14-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 11, 'worker_id': 2, 'loss': 0.9444328967481852, 'score': 125.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:14-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 11, 'worker_id': 1, 'loss': 0.5074433729052543, 'score': 108.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:15-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 11, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:15-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 12, 'worker_id': 0, 'loss': -0.057968606054782865, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:16-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 12, 'worker_id': 1, 'loss': -0.8208177700638771, 'score': 47.2, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:16-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 12, 'worker_id': 2, 'loss': 0.10828144177794456, 'score': 111.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:16-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 12, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 13, 'worker_id': 2, 'loss': -0.188779217004776, 'score': 71.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 13, 'worker_id': 1, 'loss': 1.0683407306671142, 'score': 117.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:17-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 13, 'worker_id': 0, 'loss': 0.7283133924007416, 'score': 173.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:18-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 13, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:19-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 14, 'worker_id': 1, 'loss': 0.09722962230443954, 'score': 82.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:19-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 14, 'worker_id': 0, 'loss': 1.069015446305275, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:19-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 14, 'worker_id': 2, 'loss': 0.14912457913160324, 'score': 102.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:20-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 14, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 15, 'worker_id': 0, 'loss': 0.48019720762968066, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 15, 'worker_id': 1, 'loss': 0.22318364381790162, 'score': 76.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 15, 'worker_id': 2, 'loss': -0.44301349520683286, 'score': 108.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:21-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 15, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 16, 'worker_id': 0, 'loss': 0.7436139106750488, 'score': 143.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 16, 'worker_id': 2, 'loss': 0.48244342803955076, 'score': 127.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 16, 'worker_id': 1, 'loss': 0.4582262635231018, 'score': 98.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:24-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 16, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 17, 'worker_id': 0, 'loss': 1.085423244535923, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 17, 'worker_id': 2, 'loss': -0.39895102977752683, 'score': 136.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 17, 'worker_id': 1, 'loss': 0.2506768302991986, 'score': 105.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:25-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 17, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 18, 'worker_id': 0, 'loss': 0.28981637954711914, 'score': 142.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 18, 'worker_id': 1, 'loss': 0.3932918902486563, 'score': 133.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 18, 'worker_id': 2, 'loss': 0.137468421459198, 'score': 180.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:27-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 18, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 19, 'worker_id': 1, 'loss': 0.4130533766001463, 'score': 120.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 19, 'worker_id': 2, 'loss': 0.364934903383255, 'score': 87.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 19, 'worker_id': 0, 'loss': 0.7695498995482921, 'score': 176.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:29-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 19, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:30-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 20, 'worker_id': 2, 'loss': 1.0123173385858535, 'score': 123.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:30-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 20, 'worker_id': 1, 'loss': -0.02940177470445633, 'score': 109.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:30-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 20, 'worker_id': 0, 'loss': 0.82315134704113, 'score': 151.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:31-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 20, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 21, 'worker_id': 2, 'loss': 1.1093816500157119, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 21, 'worker_id': 1, 'loss': 0.4385672867298126, 'score': 110.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 21, 'worker_id': 0, 'loss': 0.4782306861132383, 'score': 135.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:33-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 21, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:33-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 22, 'worker_id': 1, 'loss': 0.5357969999313354, 'score': 100.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:33-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 22, 'worker_id': 0, 'loss': 0.8325169593095779, 'score': 120.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:33-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 22, 'worker_id': 2, 'loss': 0.11226955950260162, 'score': 161.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:34-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 22, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 23, 'worker_id': 1, 'loss': -0.18534362614154815, 'score': 121.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 23, 'worker_id': 2, 'loss': 0.7337817471474409, 'score': 155.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 23, 'worker_id': 0, 'loss': 0.8581703484058381, 'score': 154.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:36-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 23, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 24, 'worker_id': 2, 'loss': 0.9112954773008823, 'score': 142.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 24, 'worker_id': 1, 'loss': 1.1211985632777215, 'score': 107.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 24, 'worker_id': 0, 'loss': 0.3918801724910736, 'score': 103.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:37-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 24, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:38-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 25, 'worker_id': 2, 'loss': 1.1041231215000153, 'score': 123.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:38-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 25, 'worker_id': 1, 'loss': -1.0460122365504503, 'score': 103.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:38-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 25, 'worker_id': 0, 'loss': 0.18007940128445626, 'score': 90.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:39-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 25, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:40-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 26, 'worker_id': 2, 'loss': -0.3803534388542175, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:40-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 26, 'worker_id': 1, 'loss': 0.22748980820178985, 'score': 111.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:40-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 26, 'worker_id': 0, 'loss': 0.46722733974456787, 'score': 134.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:41-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 26, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:42-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 27, 'worker_id': 2, 'loss': 0.032624244689941406, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:42-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 27, 'worker_id': 1, 'loss': 0.5449118599295616, 'score': 128.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:42-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 27, 'worker_id': 0, 'loss': 0.7047181129455566, 'score': 144.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:43-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 27, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:43-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 28, 'worker_id': 1, 'loss': 0.5134476751089097, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:43-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 28, 'worker_id': 0, 'loss': 0.10745952427387237, 'score': 106.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:43-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 28, 'worker_id': 2, 'loss': 1.1425572335720062, 'score': 179.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:44-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 28, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:45-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 29, 'worker_id': 0, 'loss': -0.9789281532168388, 'score': 115.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:45-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 29, 'worker_id': 1, 'loss': 0.03961006551980972, 'score': 155.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:45-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 29, 'worker_id': 2, 'loss': -0.5918973833322525, 'score': 119.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:46-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 29, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:47-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 30, 'worker_id': 0, 'loss': 0.2283371850848198, 'score': 110.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:47-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 30, 'worker_id': 2, 'loss': 0.07291449308395385, 'score': 133.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:47-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 30, 'worker_id': 1, 'loss': 0.27668100260198114, 'score': 181.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:48-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 30, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:49-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 31, 'worker_id': 2, 'loss': 0.8456774398684501, 'score': 122.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:49-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 31, 'worker_id': 1, 'loss': 0.7659199669957161, 'score': 125.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:49-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 31, 'worker_id': 0, 'loss': 0.691116800904274, 'score': 154.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:49-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 31, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:50-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 32, 'worker_id': 2, 'loss': 0.6408257246017456, 'score': 119.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:50-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 32, 'worker_id': 1, 'loss': -0.28181789070367813, 'score': 124.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:50-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 32, 'worker_id': 0, 'loss': 0.6027842655777931, 'score': 127.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:51-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 32, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:52-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 33, 'worker_id': 1, 'loss': 1.2257967717945575, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:52-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 33, 'worker_id': 0, 'loss': 0.6363050680607557, 'score': 151.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:52-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 33, 'worker_id': 2, 'loss': 0.2498232305049896, 'score': 132.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:53-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 33, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:53-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 34, 'worker_id': 0, 'loss': 0.5405263360589743, 'score': 175.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:53-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 34, 'worker_id': 2, 'loss': 0.4812501549720764, 'score': 117.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:53-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 34, 'worker_id': 1, 'loss': 0.5494601413607597, 'score': 193.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:54-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 34, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:55-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 35, 'worker_id': 0, 'loss': 0.7392516702413559, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:55-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 35, 'worker_id': 1, 'loss': -0.2013363718986511, 'score': 122.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:55-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 35, 'worker_id': 2, 'loss': 0.6446480631828309, 'score': 150.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:56-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 35, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:56-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 36, 'worker_id': 0, 'loss': -0.7682772934436798, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:56-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 36, 'worker_id': 1, 'loss': 0.9313856482505798, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:57-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 36, 'worker_id': 2, 'loss': 0.15620244592428206, 'score': 168.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:57-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 36, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:37:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 37, 'worker_id': 0, 'loss': -0.09635435119271278, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 37, 'worker_id': 1, 'loss': 1.0287366583943367, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:58-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 37, 'worker_id': 2, 'loss': 0.5883779264986515, 'score': 151.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:37:59-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 37, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:00-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 38, 'worker_id': 0, 'loss': 0.4541641652584076, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:00-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 38, 'worker_id': 2, 'loss': 1.0493315570056438, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:00-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 38, 'worker_id': 1, 'loss': 0.3773222230374813, 'score': 173.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:01-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 38, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 39, 'worker_id': 1, 'loss': 1.081679141521454, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 39, 'worker_id': 0, 'loss': 0.7017913877964019, 'score': 167.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:01-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 39, 'worker_id': 2, 'loss': 0.30645577907562255, 'score': 184.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:02-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 39, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:03-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 40, 'worker_id': 0, 'loss': 0.9900166481733322, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:03-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 40, 'worker_id': 1, 'loss': -0.08101577535271645, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:03-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 40, 'worker_id': 2, 'loss': 0.9238693356513977, 'score': 121.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:04-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 40, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:05-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 41, 'worker_id': 0, 'loss': -0.20302259735763073, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:05-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 41, 'worker_id': 2, 'loss': 0.8414275467395782, 'score': 122.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:05-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 41, 'worker_id': 1, 'loss': 0.7828139439225197, 'score': 199.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:06-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 41, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 42, 'worker_id': 0, 'loss': -1.4534141775220633, 'score': 120.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 42, 'worker_id': 2, 'loss': 0.6286539644002914, 'score': 151.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:06-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 42, 'worker_id': 1, 'loss': 0.8044773459434509, 'score': 180.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:07-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 42, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 43, 'worker_id': 2, 'loss': 0.5022774605080486, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 43, 'worker_id': 0, 'loss': 0.7365229099988937, 'score': 140.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:08-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 43, 'worker_id': 1, 'loss': 1.3304549038410187, 'score': 160.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:09-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 43, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 44, 'worker_id': 2, 'loss': 0.023341989517211913, 'score': 125.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 44, 'worker_id': 0, 'loss': -0.08385310173034669, 'score': 129.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:09-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 44, 'worker_id': 1, 'loss': 0.9595692574977874, 'score': 122.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:10-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 44, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 45, 'worker_id': 1, 'loss': -0.1179446391761303, 'score': 87.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 45, 'worker_id': 0, 'loss': 0.6591543912887573, 'score': 167.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:11-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 45, 'worker_id': 2, 'loss': 0.15708241164684295, 'score': 183.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:12-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 45, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 46, 'worker_id': 0, 'loss': -0.11966914385557174, 'score': 119.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 46, 'worker_id': 2, 'loss': 0.09287450313568116, 'score': 71.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:13-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 46, 'worker_id': 1, 'loss': 1.0006875628605485, 'score': 141.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:14-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 46, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:15-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 47, 'worker_id': 0, 'loss': 1.0808848023414612, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:15-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 47, 'worker_id': 2, 'loss': 0.17742510735988617, 'score': 128.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:15-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 47, 'worker_id': 1, 'loss': 0.35875151082873347, 'score': 95.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:15-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 47, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:16-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 48, 'worker_id': 0, 'loss': -0.574648680537939, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:16-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 48, 'worker_id': 2, 'loss': 0.5895746007561684, 'score': 117.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:16-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 48, 'worker_id': 1, 'loss': 0.8189732372760773, 'score': 107.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:17-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 48, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:18-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 49, 'worker_id': 1, 'loss': 0.6612218757160008, 'score': 67.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:18-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 49, 'worker_id': 0, 'loss': 0.10773519054055214, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:18-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 49, 'worker_id': 2, 'loss': 0.4341844767332077, 'score': 134.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:19-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 49, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 50, 'worker_id': 0, 'loss': 0.035143525525927546, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 50, 'worker_id': 1, 'loss': 0.5710093647241592, 'score': 108.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:20-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 50, 'worker_id': 2, 'loss': 0.6521358132362366, 'score': 152.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:20-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 50, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:21-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 51, 'worker_id': 1, 'loss': 1.099664455652237, 'score': 100.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:21-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 51, 'worker_id': 2, 'loss': 0.717074516415596, 'score': 129.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:21-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 51, 'worker_id': 0, 'loss': 0.5521076947450638, 'score': 145.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:22-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 51, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 52, 'worker_id': 0, 'loss': 1.3044548094272614, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 52, 'worker_id': 1, 'loss': -0.13503926545381545, 'score': 89.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:23-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 52, 'worker_id': 2, 'loss': 1.2176282793283462, 'score': 156.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:24-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 52, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 53, 'worker_id': 1, 'loss': -0.24530449006706476, 'score': 136.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 53, 'worker_id': 2, 'loss': 0.7597559556365013, 'score': 140.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:24-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 53, 'worker_id': 0, 'loss': -0.14548147320747376, 'score': 192.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:25-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 53, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 54, 'worker_id': 1, 'loss': 0.40715706944465635, 'score': 107.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 54, 'worker_id': 0, 'loss': 0.4906271621584892, 'score': 95.66666666666667, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:26-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 54, 'worker_id': 2, 'loss': 0.7085492432117462, 'score': 79.2, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:27-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 54, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 55, 'worker_id': 0, 'loss': 1.084211501479149, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 55, 'worker_id': 2, 'loss': 0.8017323255538941, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:28-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 55, 'worker_id': 1, 'loss': 0.00296659916639328, 'score': 141.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:29-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 55, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:29-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 56, 'worker_id': 0, 'loss': 1.175359743833542, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:29-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 56, 'worker_id': 2, 'loss': 0.7211453258991242, 'score': 122.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:29-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 56, 'worker_id': 1, 'loss': 0.10865712463855744, 'score': 146.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:30-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 56, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:31-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 57, 'worker_id': 2, 'loss': -0.46162610352039335, 'score': 71.33333333333333, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:31-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 57, 'worker_id': 1, 'loss': 0.43434642553329467, 'score': 167.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:31-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 57, 'worker_id': 0, 'loss': 0.5476855009794235, 'score': 187.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:32-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 57, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 58, 'worker_id': 2, 'loss': 1.3079561591148376, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 58, 'worker_id': 0, 'loss': -0.3120972692966461, 'score': 120.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:32-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 58, 'worker_id': 1, 'loss': 1.1611645817756653, 'score': 164.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:33-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 58, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:34-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 59, 'worker_id': 2, 'loss': 0.4434328995645046, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:34-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 59, 'worker_id': 1, 'loss': 0.12645607590675353, 'score': 126.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:34-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 59, 'worker_id': 0, 'loss': 0.5674947274848818, 'score': 171.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:35-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 59, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 60, 'worker_id': 0, 'loss': 0.7845179378986359, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 60, 'worker_id': 1, 'loss': -0.40916270911693575, 'score': 138.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:35-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 60, 'worker_id': 2, 'loss': 1.0000414580106736, 'score': 185.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:36-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 60, 'global_avg_grad_length': 4
+
+[INFO]-2022-12-02 23:38:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 61, 'worker_id': 2, 'loss': 0.9215832471847534, 'score': 200.0, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 61, 'worker_id': 0, 'loss': -0.2787886023521423, 'score': 156.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:37-chief_mqtt_main.py:68:[RECV] TOPIC: Episode_Detail, PAYLOAD: 'episode': 61, 'worker_id': 1, 'loss': 0.39923581331968305, 'score': 152.5, 'gradients_length': 4
+[INFO]-2022-12-02 23:38:38-chief.py:207:[SEND] TOPIC: Update_Ack, PAYLOAD: 'episode': 61, 'global_avg_grad_length': 4
+
